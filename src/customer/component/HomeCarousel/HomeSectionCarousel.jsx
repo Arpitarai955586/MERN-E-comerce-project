@@ -92,7 +92,7 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 
-const HomeSectionCarousel = () => {
+const HomeSectionCarousel = ({title}) => {
   const carouselRef = useRef(null);
 
   const responsive = {
@@ -109,6 +109,8 @@ const HomeSectionCarousel = () => {
 
   return (
     <div className="relative border p-5 bg-white">
+            <h1 className=" text-4xl font-bold mb-2 px-3  text-black">{title}</h1>
+
       {/* Carousel */}
       <AliceCarousel
         ref={carouselRef}
