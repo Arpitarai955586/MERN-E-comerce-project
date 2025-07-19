@@ -12,8 +12,7 @@ function App() {
     <div>
     <Navigation/>
     <HomePage/>
-   
-
+     
     </div>
   )
 }

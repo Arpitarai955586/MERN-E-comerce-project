@@ -1,6 +1,7 @@
 import React from 'react'
-import MainCarousel from '../../component/HomeCarousel/MainCarousel'g
+import MainCarousel from '../../component/HomeCarousel/MainCarousel'
 import HomeSectionCarousel from '../../component/HomeCarousel/HomeSectionCarousel'
+import Footer from '../../component/footer/Footer'
 
 const HomePage = () => {
   return (
@@ -12,9 +13,10 @@ const HomePage = () => {
        <HomeSectionCarousel title="Womens Saree" />
         <HomeSectionCarousel title="Womens Kutti"/>
          <HomeSectionCarousel title="Womens Kutti"/>
-   
-</div>
-
+         </div>
+       <div>
+        <Footer/>
+       </div>
     </div>
   )
 }
